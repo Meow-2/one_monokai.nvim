@@ -72,10 +72,19 @@ M.editor = {
     Directory = { fg = colors.aqua },
 
     -- diff
-    DiffAdd = { fg = '#98be65' },
-    DiffDelete = { fg = '#e95678' },
-    DiffChange = { fg = '#61afef' },
-    DiffText = { fg = colors.bg },
+    -- DiffAdd = { fg = '#98be65' },
+    -- DiffDelete = { fg = '#e95678' },
+    -- DiffChange = { fg = '#61afef' },
+    -- DiffText = { fg = colors.bg },
+
+    DiffAdd       = {bg = colors.none, fg = colors.diff_add   },
+    DiffChange    = {bg = colors.none, fg = colors.diff_change},
+    DiffDelete    = {bg = colors.none, fg = colors.diff_delete},
+    DiffText      = {bg = colors.none, fg = colors.diff_text  },
+    DiffAdded     = colors.green,
+    DiffRemoved   = colors.red,
+    DiffFile      = colors.cyan,
+    DiffIndexLine = colors.grey,
 
     -- fold
     Folded = { fg = colors.warmgrey, bg = colors.darkblack },

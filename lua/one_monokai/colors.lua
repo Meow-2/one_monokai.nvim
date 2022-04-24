@@ -27,4 +27,8 @@ return {
     changefg = "#d7d7ff",
     changebg = "#5f5f87",
     none = "NONE",
+    diff_add    = '#98be65',
+    diff_delete = '#e95678',
+    diff_change = '#61afef',
+    diff_text   = '#282C34',
 }
